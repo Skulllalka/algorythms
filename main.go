@@ -25,5 +25,6 @@ func main() {
 	// 	fmt.Println(reflect.TypeOf(c), "\n")
 	// 	fmt.Println(reflect.ValueOf(a))
 
-	concur.Counter()
+	//concur.Counter()
+	concur.TwoReadWrite()
 }
