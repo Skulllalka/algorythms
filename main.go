@@ -1,6 +1,9 @@
 package main
 
-import "github.com/Skulllalka/algorythms/concur"
+import (
+	//	"github.com/Skulllalka/algorythms/concur"
+	"github.com/Skulllalka/algorythms/solutions"
+)
 
 // "fmt"
 // "reflect"
@@ -26,5 +29,6 @@ func main() {
 	// 	fmt.Println(reflect.ValueOf(a))
 
 	//concur.Counter()
-	concur.TwoReadWrite()
+	//concur.AvoidDeadlock()
+	solutions.UrlsMain()
 }
