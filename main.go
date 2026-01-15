@@ -30,5 +30,5 @@ func main() {
 
 	//concur.Counter()
 	//concur.AvoidDeadlock()
-	solutions.UrlsMain()
+	solutions.RepeatFnMain()
 }
