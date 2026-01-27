@@ -2,7 +2,8 @@ package main
 
 import (
 	//	"github.com/Skulllalka/algorythms/concur"
-	"github.com/Skulllalka/algorythms/solutions"
+	"github.com/Skulllalka/algorythms/concur"
+	//"github.com/Skulllalka/algorythms/solutions"
 )
 
 // "fmt"
@@ -30,5 +31,6 @@ func main() {
 
 	//concur.Counter()
 	//concur.AvoidDeadlock()
-	solutions.MergeSortedMain()
+	//solutions.MergeSortedMain()
+	concur.Smain()
 }
